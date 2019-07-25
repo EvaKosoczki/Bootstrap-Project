@@ -1,0 +1,34 @@
+.navbar-brand {
+  color: #ffff00;
+}
+
+.navbar-brand:hover {
+  color: #FFF;
+}
+
+.navDiv--patterned {
+  background-image: url("/img/bg-pattern.png"), linear-gradient(to right, #ff1a1a, #cc00cc);
+  opacity: 0.8;
+}
+
+.startButton {
+  border-radius: 90px;
+  padding: 10px 40px;
+}
+
+@keyframes colorchanger {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: #fdcc52
+  }
+}
+
+.startButton:hover {
+  animation-name: colorchanger;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+
+}
