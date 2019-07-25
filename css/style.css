@@ -32,3 +32,7 @@
   animation-fill-mode: forwards;
 
 }
+
+#StopWaiting {
+  background-image: url("/img/bg-cta.jpg")
+}
