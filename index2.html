@@ -24,14 +24,16 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
         <li class="nav-item active btnFonts">
-          <a class="nav-link h5" href="#Discover">Download <span
+          <a class="nav-link h5" href="#Discover" id="Down">Download <span
               class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btnFonts h5" href="#Features">Features</a>
+          <a class="nav-link btnFonts h5" id="Feat"
+            href="#Features">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btnFonts h5" href="#SocialMedia">Contact</a>
+          <a class="nav-link btnFonts h5" id="Cont"
+            href="#SocialMedia">Contact</a>
         </li>
       </ul>
     </div>
@@ -129,25 +131,99 @@
     <div class=" col-12 h2footerFonts h2">We <i class="fa fa-heart"
         aria-hidden="true"></i> new friends!</div>
     <div class=" col-12">
-      <a href="https://twitter.com/"><i class="fa fa-twitter h2 p-2"
-          aria-hidden="true"></i></a>
+      <a href="https://twitter.com/"><i class="fa fa-twitter h2 p-2 socMed-bg"
+          data-toggle="tooltip" title="Twitter" aria-hidden="true"></i></a>
       <a href="https://www.facebook.com/"><i
-          class="fa fa-facebook-square p-2 h2" aria-hidden="true"></i></a>
+          class="fa fa-facebook-square p-2 h2 socMed-bg" data-toggle="tooltip"
+          title="Facebook" aria-hidden="true"></i></a>
       <a href="https://myaccount.google.com/intro"><i
-          class="fa fa-google-plus-official p-2 h2" aria-hidden="true"></i></a>
+          class="fa fa-google-plus-official p-2 h2 socMed-bg"
+          data-toggle="tooltip" title="Google+" aria-hidden="true"></i></a>
     </div>
   </div>
   <div class="row  h2footerFonts text-center p-3 footer--bg" id="Footer">
     <div class="col-12 text-secondary">© Your Website 2018. All Rights
       Reserved.</div>
     <div class="col-12">
-      <a href="">Privacy</a>
-      <a href="">Terms</a>
-      <a href="">FAQ</a>
+      <a href="" class="links" data-toggle="modal"
+        data-target="#Privacy">Privacy</a>
+      <a href="" class="links" data-toggle="modal"
+        data-target="#Terms">Terms</a>
+      <a href="" class="links" data-toggle="modal" data-target="#FAQ">FAQ</a>
     </div>
   </div>
 
+  <div class="modal fade" tabindex="-1" role="dialog" id="Privacy">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Privacy</h5>
+          <button type="button" class="close" data-dismiss="modal"
+            aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+            explicabo odio deserunt dolores voluptate, fuga pariatur vitae
+            eligendi asperiores doloribus odit omnis cupiditate culpa aut saepe
+            laboriosam voluptatibus amet nulla.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary"
+            data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="modal fade" tabindex="-1" role="dialog" id="Terms">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Terms</h5>
+          <button type="button" class="close" data-dismiss="modal"
+            aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+            explicabo odio deserunt dolores voluptate, fuga pariatur vitae
+            eligendi asperiores doloribus odit omnis cupiditate culpa aut saepe
+            laboriosam voluptatibus amet nulla.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary"
+            data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" tabindex="-1" role="dialog" id="FAQ">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">FAQ</h5>
+          <button type="button" class="close" data-dismiss="modal"
+            aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+            explicabo odio deserunt dolores voluptate, fuga pariatur vitae
+            eligendi asperiores doloribus odit omnis cupiditate culpa aut saepe
+            laboriosam voluptatibus amet nulla.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary"
+            data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <script src="/lib/jquery.js"></script>

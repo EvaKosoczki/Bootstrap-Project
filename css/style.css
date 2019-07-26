@@ -10,9 +10,22 @@ html {
   color: #fdcc52;
 }
 
+#Feat,
+#Down,
+#Cont {
+  color: #FFF;
+}
+
 .SB--yellow:hover {
   color: #FFF;
-  cursor:pointer;
+  cursor: pointer;
+}
+
+#Feat:hover,
+#Down:hover,
+#Cont:hover {
+  color: #fdcc52;
+  cursor: pointer;
 }
 
 .h1Font {
@@ -27,12 +40,9 @@ html {
   font-family: Muli, Helvetica, Arial, sans-serif
 }
 
-.navbar-brand:hover {
-  color: #FFF;
-}
 
 .navDiv--patterned {
-  background-image: url("/img/bg-pattern.png"), linear-gradient(to right, #ff1a1a, #cc00cc);
+  background-image: url("/img/bg-pattern.png"), linear-gradient(to right, #e03f3f, #cf83cf);
 }
 
 .textDiv--white {
@@ -52,10 +62,12 @@ html {
 @keyframes colorchanger {
   from {
     background-color: transparent;
+    border-color: #FFF;
   }
 
   to {
-    background-color: #fdcc52
+    background-color: #fdcc52;
+    border-color: #fdcc52
   }
 }
 
@@ -91,6 +103,18 @@ html {
   opacity: 0.9;
 }
 
+.socMed-bg:hover {
+  opacity: 1;
+}
+
 .footer--bg {
   background-color: #404040;
+}
+
+.links {
+  color: #868e96
+}
+
+.links:hover {
+  color: #fdcc52;
 }
