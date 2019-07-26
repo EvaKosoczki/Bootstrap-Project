@@ -2,8 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Muli:300i&display=swap');
 
-.navbar-brand {
-  color: #ffff00;
+html {
+  scroll-behavior: smooth;
+}
+
+.SB--yellow {
+  color: #fdcc52;
+}
+
+.SB--yellow:hover {
+  color: #FFF;
+  cursor:pointer;
 }
 
 .h1Font {
