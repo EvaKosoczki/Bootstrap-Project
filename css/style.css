@@ -35,8 +35,9 @@
 }
 
 .startButton {
-  border-radius: 90px;
+  border-radius: 50px;
   padding: 10px 40px;
+
 }
 
 @keyframes colorchanger {
@@ -57,5 +58,30 @@
 }
 
 #StopWaiting {
-  background-image: url("/img/bg-cta.jpg")
+  background-image: url("/img/bg-cta.jpg");
+  background-size: cover;
+  height: 90vh;
+  filter: brightness(60%)
+}
+
+.fa-heart,
+.fa-google-plus-official {
+  color: #DB4437;
+  ;
+}
+
+.fa-facebook-square {
+  color: #3C5A99
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.socMed-bg {
+  opacity: 0.9;
+}
+
+.footer--bg {
+  background-color: #404040;
 }
