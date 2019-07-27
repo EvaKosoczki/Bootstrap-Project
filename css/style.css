@@ -6,25 +6,19 @@ html {
   scroll-behavior: smooth;
 }
 
-.SB--yellow {
-  color: #fdcc52;
-}
-
+.SB--yellow,
 #Feat,
 #Down,
 #Cont {
-  color: #FFF;
+  color: #fdcc52;
 }
 
-.SB--yellow:hover {
-  color: #FFF;
-  cursor: pointer;
-}
 
+.SB--yellow:hover,
 #Feat:hover,
 #Down:hover,
 #Cont:hover {
-  color: #fdcc52;
+  color: #FFF;
   cursor: pointer;
 }
 
@@ -50,7 +44,7 @@ html {
 }
 
 #Discover {
-  padding: 20% 10%;
+  padding: 10% 10%;
 }
 
 .startButton {
@@ -117,4 +111,12 @@ html {
 
 .links:hover {
   color: #fdcc52;
+}
+
+.img--mobile {
+  display: block;
+  max-width: 500px;
+  max-height: 700px;
+  width: auto;
+  height: auto;
 }
