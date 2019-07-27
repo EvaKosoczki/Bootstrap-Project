@@ -41,7 +41,7 @@ html {
 }
 
 
-.navDiv--patterned {
+.newAgeDiv--patterned {
   background-image: url("/img/bg-pattern.png"), linear-gradient(to right, #e03f3f, #cf83cf);
 }
 
