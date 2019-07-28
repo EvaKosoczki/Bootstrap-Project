@@ -11,6 +11,11 @@ $(window).on('scroll', function scroller() {
   } else {
     $('.navbar').css('background-color', '#FFF')
     $('.SB--yellow,#Cont,#Down,#Feat').css('color', '#636363');
+    $('.SB--yellow,#Cont,#Down,#Feat').hover(function x() {
+      $(this).css('color', '#fdcc52')
+    }, function y() {
+      $(this).css('color', '#636363')
+    })
   }
 });
 
